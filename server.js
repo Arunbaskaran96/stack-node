@@ -11,4 +11,4 @@ server.use("/", app);
 //connecting a database
 require("./Connection/Configuration");
 
-server.listen(8000);
+server.listen(process.env.PORT || 8000);
