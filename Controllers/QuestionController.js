@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-const Auth = require("../controllers/middleware/verify");
+const Auth = require("../Controllers/middleware/verify");
 const User = require("../controllers/middleware/userid");
 
 const questions = require("../Models/QuestionModel");
